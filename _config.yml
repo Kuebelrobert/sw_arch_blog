@@ -1,0 +1,38 @@
+title: Embedded Architecture Notes
+description: >-
+  Notes on software architecture for embedded systems — security, flashing,
+  communication, RTOS, AutoSAR, firmware, debugging, AI, and engineering
+  processes — drawn from professional work and self-study.
+author: Robert
+email: robert.koerner87@googlemail.com
+baseurl: "" # subpath if this is a project site, e.g. "/blog" — leave empty for a <user>.github.io root site
+url: "" # e.g. "https://<username>.github.io"
+
+theme: minima
+
+# Native GitHub Pages plugin whitelist — these are safe to use without a
+# custom GitHub Actions build.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+minima:
+  skin: dark
+  nav_pages:
+    - about.md
+    - categories.md
+
+permalink: /:categories/:year/:month/:day/:title/
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+# Exclude non-site files from the generated output
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - PLAN.md
+  - README.md
+  - vendor
