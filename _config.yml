@@ -6,7 +6,7 @@ description: >-
 author: Robert
 email: robert.koerner87@googlemail.com
 baseurl: "" # subpath if this is a project site, e.g. "/blog" — leave empty for a <user>.github.io root site
-url: "" # e.g. "https://<username>.github.io"
+url: "https://Kuebelrobert.github.io" # e.g. "https://<username>.github.io"
 
 theme: minima
 
